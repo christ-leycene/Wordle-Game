@@ -1,4 +1,6 @@
-## 🧩 WORDLE GAME
+
+
+##  WORDLE GAME
 Présentation
 
 Wordle Game est une version en console du célèbre jeu de lettres Wordle, développée en Python.
@@ -7,18 +9,16 @@ Ce projet m’a permis de renforcer mes bases en programmation structurée, modu
 
 ## 📁 Structure du projet
 ```text
-Wordle_Game/
+Wordle/
 │
-├── Main.py                # Point d'entrée du programme
-│
-├── source/
-│   ├── display.py         # Gestion de l’affichage des résultats
-│   ├── validate_guess.py  # Vérification des propositions du joueur
-│   ├── word_choice.py     # Sélection aléatoire du mot mystère
-│   └── wordle.py          # Logique principale du jeu
-│
-└── assets/
-    └── words.txt          # Liste de mots utilisés pour le jeu
+├── README.md             # Documentation du projet 
+├── display.py                # Gère l'affichage du jeu (console, couleurs, etc.)
+├── main.py                   #  Point d'entrée du programme 
+├── validate_guess.py      # Vérifie la validité des propositions de mots
+├── word.txt               # Fichier contenant la liste de mots possibles
+├── word_choice.py         # Sélectionne un mot aléatoire dans la liste
+└── wordle.py              # Logique principale du jeu Wordle
+
  ``` 
 
 
@@ -56,3 +56,4 @@ Bravo, mot trouvé en 2 essais.
 -Manipulation de chaînes de caractères
 -Logique de comparaison et conditions
 -Organisation d’un projet en plusieurs modules
+
